@@ -1,6 +1,6 @@
 import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Layout from '../layout/layout'
+import Layout from '../layout/Layout'
 import ErrorPage from '../pages/ErrorPage'
 import Home from '../pages/Home'
 import Features from '../pages/features'
