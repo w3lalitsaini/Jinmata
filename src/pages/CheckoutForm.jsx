@@ -51,14 +51,13 @@ const CheckoutForm = () => {
         "XlJ4bIw7Fe9TE_q4s" // your public key
       );
 
-      toast.success("✅ Order submitted successfully via email!");
+      toast.success("Order submitted successfully");
       clearCart();
       navigate("/");
     } catch (emailError) {
       console.error("❌ EmailJS Error:", emailError);
 
       try {
-        // 📝 Save to Google Sheets if email fails
         const response = await axios.post(
           "https://script.google.com/macros/s/AKfycbzoxgrT1k3FFWcRAvV4hQKmgHq4k5Y3uJ1s0bLkGacUgG7oQgcGAUGqW_Pbhotf1pXetQ/exec",
           orderData,

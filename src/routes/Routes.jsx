@@ -21,10 +21,6 @@ const routes = createBrowserRouter([
                 element: <Home />
             },
             {
-                path: "/features",
-                element: <Features />
-            },
-            {
                 path: "/menu",
                 element: <Menu />
             },

@@ -8,7 +8,7 @@ const App = () => {
   return (
     <CartProvider>
       <Routes />
-      <ToastContainer position="top-right" autoClose={3000} />
+      <ToastContainer position="bottom-right" autoClose={3000} />
     </CartProvider>
   );
 };

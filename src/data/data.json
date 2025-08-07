@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Mango Juice",
+    "price": 120,
+    "image": "/items/mango.jpg",
+    "category": "special"
+  },
+  {
+    "id": 2,
+    "name": "Cold Coffee",
+    "price": 150,
+    "image": "/items/coldcoffee.jpg",
+    "category": "special"
+  },
+  {
+    "id": 3,
+    "name": "Burger & Fries",
+    "price": 200,
+    "image": "/items/Burger.jpg",
+    "category": "special"
+  },
+  {
+    "id": 4,
+    "name": "Veg Sandwich",
+    "price": 90,
+    "image": "/images/sandwich1.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 5,
+    "name": "Hot Chocolate",
+    "price": 130,
+    "image": "/images/hotchocolate1.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 6,
+    "name": "Chicken Wrap",
+    "price": 160,
+    "image": "/images/wrap1.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 7,
+    "name": "Iced Tea",
+    "price": 100,
+    "image": "/images/icedtea1.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 8,
+    "name": "French Fries",
+    "price": 80,
+    "image": "/images/fries1.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 9,
+    "name": "Grilled Paneer",
+    "price": 180,
+    "image": "/images/paneer1.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 10,
+    "name": "Brownie",
+    "price": 70,
+    "image": "/images/brownie1.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 11,
+    "name": "Pasta Alfredo",
+    "price": 190,
+    "image": "/images/pasta1.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 12,
+    "name": "Club Sandwich",
+    "price": 140,
+    "image": "/items/ClubSandwich.jpg",
+    "category": "special"
+  },
+  {
+    "id": 13,
+    "name": "Lemon Mojito",
+    "price": 110,
+    "image": "/images/mojito1.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 14,
+    "name": "Paneer Tikka",
+    "price": 170,
+    "image": "/images/paneer2.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 15,
+    "name": "Hot Latte",
+    "price": 135,
+    "image": "/images/latte1.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 16,
+    "name": "Choco Shake",
+    "price": 150,
+    "image": "/images/shake1.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 17,
+    "name": "Veg Pizza",
+    "price": 220,
+    "image": "/images/pizza1.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 18,
+    "name": "Cheese Garlic Bread",
+    "price": 95,
+    "image": "/images/garlicbread1.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 19,
+    "name": "Smoothie Bowl",
+    "price": 160,
+    "image": "/images/smoothie1.jpg",
+    "category": "normal"
+  },
+  {
+    "id": 20,
+    "name": "Tandoori Momos",
+    "price": 140,
+    "image": "/images/momos1.jpg",
+    "category": "normal"
+  }
+]

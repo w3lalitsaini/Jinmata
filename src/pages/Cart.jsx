@@ -53,14 +53,14 @@ const Cart = () => {
                     <div className="flex items-center gap-2 mt-1">
                       <button
                         onClick={() => removeFromCart(item.id)}
-                        className="text-xs bg-red-500 text-white px-2 rounded hover:bg-red-600"
+                        className="text-xs bg-red-500 text-white px-3 py-2 rounded hover:bg-red-600"
                       >
                         Remove
                       </button>
                       <button
                         onClick={() => decrementQuantity(item.id)}
                         disabled={item.quantity === 1}
-                        className={`text-xs px-2 rounded ${
+                        className={`text-xs rounded py-2 px-3 ${
                           item.quantity === 1
                             ? "bg-gray-200 text-gray-500 cursor-not-allowed"
                             : "bg-gray-300 hover:bg-gray-400"
@@ -70,7 +70,7 @@ const Cart = () => {
                       </button>
                       <button
                         onClick={() => incrementQuantity(item.id)}
-                        className="text-xs bg-gray-300 px-2 rounded hover:bg-gray-400"
+                        className="text-xs bg-gray-300 py-2 px-3 rounded hover:bg-gray-400"
                       >
                         +
                       </button>
@@ -95,7 +95,7 @@ const Cart = () => {
             </button>
             <button
               onClick={handleCheckout}
-              className="bg-yellow hover:bg-yellow-dark px-4 py-2 rounded text-sm text-black"
+              className="bg-peach hover:bg-orange-400 px-4 py-2 rounded text-sm text-black"
             >
               Checkout
             </button>

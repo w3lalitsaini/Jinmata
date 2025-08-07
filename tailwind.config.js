@@ -16,6 +16,15 @@ export default {
         heading: ['"Playfair Display"', "serif"],
         body: ['"Open Sans"', "sans-serif"],
       },
+      keyframes: {
+        "slide-down": {
+          "0%": { transform: "translateX(+100%)" },
+          "100%": { transform: "translateX(0)" },
+        },
+      },
+      animation: {
+        "slide-down": "slide-down 0.5s ease-out",
+      },
     },
   },
   plugins: [],
