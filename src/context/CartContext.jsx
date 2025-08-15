@@ -56,6 +56,9 @@ const CartProvider = ({ children }) => {
   const getTotal = () =>
     cart.reduce((total, item) => total + item.price * item.quantity, 0);
 
+  const getTotalItems = () =>
+    cart.reduce((total, item) => total + item.quantity, 0);
+
   return (
     <CartContext.Provider
       value={{
@@ -64,6 +67,7 @@ const CartProvider = ({ children }) => {
         removeFromCart,
         clearCart,
         getTotal,
+        getTotalItems,
         incrementQuantity,
         decrementQuantity,
       }}

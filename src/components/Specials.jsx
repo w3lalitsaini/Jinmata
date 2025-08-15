@@ -21,7 +21,7 @@ const Specials = () => {
 
   return (
     <div className="px-6 pb-16 pt-4 bg-cream text-black">
-      <h2 className="text-4xl font-bold font-heading mb-8 text-berry">Specials</h2>
+      {/* <h2 className="text-4xl font-bold font-heading mb-8 text-berry">Specials</h2> */}
       <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {specials.map((item) => (
           <MenuItemCard

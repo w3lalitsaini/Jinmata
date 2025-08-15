@@ -11,38 +11,42 @@ import Cart from '../pages/Cart'
 import CheckoutForm from '../pages/CheckoutForm'
 
 const routes = createBrowserRouter([
-    {
-        path: "/",
-        element: <Layout />,
-        errorElement: <ErrorPage />,
-        children: [
-            {
-                index: true,
-                element: <Home />
-            },
-            {
-                path: "/menu",
-                element: <Menu />
-            },
-            {
-                path: "/gallery",
-                element: <Gallery />
-            },
-            {
-                path: "/contact",
-                element: <Contact />
-            },
-            {
-                path: "/cart",
-                element: <Cart />
-            },
-            {
-                path: "/checkout",
-                element: <CheckoutForm />
-            },
-        ]
-    }
-])
+  {
+    path: "/",
+    element: <Layout />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        index: true,
+        element: <Home />,
+      },
+      {
+        path: "/menu",
+        element: <Menu />,
+      },
+      {
+        path: "/menu/:category",
+        element: <Menu />,
+      },
+      {
+        path: "/gallery",
+        element: <Gallery />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
+      },
+      {
+        path: "/checkout",
+        element: <CheckoutForm />,
+      },
+    ],
+  },
+]);
 
 const Routes = () => {
     return <RouterProvider router={routes} />

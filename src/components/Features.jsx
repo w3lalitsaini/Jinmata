@@ -45,7 +45,7 @@ const Features = () => {
   return (
     <div className="py-16 px-6 bg-[#141414] text-white">
       <h2 className="text-3xl font-heading mb-10 text-peach text-center">
-        Why Choose Jinmata Cafe?
+        Why Choose Shayam Cafe?
       </h2>
       <div className="grid md:grid-cols-3 gap-10">
         {features.map((feature, idx) => (

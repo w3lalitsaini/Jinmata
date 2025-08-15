@@ -1,10 +1,10 @@
 import React from "react";
 import { useCart } from "../context/CartContext";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Cart = () => {
   const navigate = useNavigate();
-
   const {
     cart,
     getTotal,
@@ -22,11 +22,17 @@ const Cart = () => {
       return;
     }
 
-    navigate("/checkout"); // 🚀 Redirect without alert
+    navigate("/checkout");
   };
 
   return (
-    <div className="p-4">
+    <motion.div
+      initial={{ x: "100vw", opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: "-100vw", opacity: 0 }}
+      transition={{ type: "spring", stiffness: 80, damping: 15, duration: 0.5 }}
+      className="p-4"
+    >
       <h1 className="text-2xl font-heading mb-4">Your Cart</h1>
 
       {cart.length === 0 ? (
@@ -102,7 +108,7 @@ const Cart = () => {
           </div>
         </>
       )}
-    </div>
+    </motion.div>
   );
 };
 
